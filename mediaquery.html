@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Media Query</title>
+    <style>
+      div {
+        border: 5px solid green;
+        font-size: 50px;
+      }
+      @media (min-width: 800px) {
+        div {
+          border: 5px solid red;
+        }
+      }
+      @media (max-width: 600px) {
+        div {
+          border: 5px solid blue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>Responsive</div>
+  </body>
+</html>
